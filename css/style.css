@@ -1,0 +1,128 @@
+#contenedor{
+    width: 100%;
+    height: 1000px;
+    background-color: #DC0A2D;
+}
+#contenedor1{
+    height: 100px;
+}
+#contenedorExp{
+    height: 100px;
+    background-color: white;
+}
+.center{
+    display: flex;
+    align-items:center;
+    justify-content:center;        
+}
+.derecha{
+    display: flex;
+    align-items:center;
+    justify-content:right; 
+    margin-right: 100px;       
+}
+.izquierda{
+    display: flex;
+    align-items:center;
+    justify-content:left; 
+    margin-left: 100px;       
+}
+.bet{
+    display: flex;
+    justify-content:space-between;        
+}
+.center1{
+    display: flex;
+    align-items:center;
+}
+#circulo1{
+    margin-left: 80px;
+}
+#circulo2{
+    margin-left: 30px;
+    margin-top: -20px;
+}
+#circulo3{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#contenedor2{
+    background-color: #DEDEDE;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circulo {
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.circuloPeque {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.circuloMe {
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.colorRojo{
+    background-color: #9B011C;
+}
+.colorAmarillo{
+    background-color: #CBB319;
+}
+.colorVerde{
+    background-color: #306D3C;
+}
+.colorAzul{
+    background-color: #28AAFE;
+}
+.colorNegro{
+    background-color: black;
+}
+/*Cuadrados*/
+.cuadrado {
+    width: 40px; 
+    height: 40px; 
+    background: #DC0A2D;
+}
+.cuadrado2 {
+    background-color: black!important;
+}
+.cuadrado3{
+    background-color: #DEDEDE !important;
+    border: 3px solid #555;
+}
+#contentInfo{
+    width: 80%;
+    height: 200px;
+    background-color: black;
+    margin: 15px;
+    margin-top: 30px;
+}
+h1,h2,h3,h4{
+    color: white;
+}
+#contentInfoBtn{
+    width: 80%;
+    height: 100px;
+    background-color: #31A7F1;
+    margin: 15px;
+    margin-top: 30px;
+}
+.btnAlfabeto{
+    background-color: azure; 
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
